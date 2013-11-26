@@ -4,10 +4,10 @@ Gem::Specification.new do |s|
   s.version     = '1.3.0'
   s.summary     = 'Fancy Spree Theme'
   s.description = 'Fancy theme to apply to out of the box Spree so it looks a bit nicer. Use it as a starting point.'
-  s.required_ruby_version = '>= 1.8.7'
+  s.required_ruby_version = '>= 1.9.3'
 
-  s.author    = 'Alexey Topolyanskiy'
-  s.email     = 'devilcoders@gmail.com'
+  s.author    = 'bhanuprasadmende'
+  s.email     = 'bhanuprasadmende@gmail.com'
   s.homepage  = 'http://www.spreecommerce.com'
 
   #s.files       = `git ls-files`.split("\n")
@@ -15,10 +15,10 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 2.2.0.beta'
+  s.add_dependency 'spree_core', '~> 2.0.1'
   s.add_dependency 'compass-rails'
   s.add_dependency 'jquery-ui-rails'
-  s.add_dependency 'deface', '~> 1.0.0rc3'
+  #s.add_dependency 'deface', '~> 1.0.0rc3'
 
   s.add_development_dependency 'capybara', '1.0.1'
   s.add_development_dependency 'factory_girl', '~> 2.6.4'
